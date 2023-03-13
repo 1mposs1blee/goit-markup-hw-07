@@ -42,6 +42,72 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" re
           </li>
         </ul>
       </address>
+      <button class="open-mobile-menu-button btn js-open-menu">
+        <svg class="open-mobile-menu-icon" width="32" height="22">
+          <use href="./images/icons.svg#icon-burger-menu"></use>
+        </svg>
+      </button>
+      <div class="mobile-menu js-menu-container">
+        <div class="container mobile-menu-container">
+          <button class="close-mobile-menu-button btn js-close-menu">
+            <svg class="close-mobile-menu-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-modal"></use>
+            </svg>
+          </button>
+          <div class="mobile-menu-content-container">
+            <ul class="mobile-menu-nav list-style">
+              <li class="mobile-menu-nav-item">
+                <a class="mobile-menu-nav-link link current" href="./index.html">Studio</a>
+              </li>
+              <li class="mobile-menu-nav-item">
+                <a class="mobile-menu-nav-link link" href="./portfolio.html">Portfolio</a>
+              </li>
+              <li class="mobile-menu-nav-item">
+                <a class="mobile-menu-nav-link link" href="">Contacts</a>
+              </li>
+            </ul>
+            <ul class="mobile-menu-address-list list-style">
+              <li class="mobile-menu-address-item">
+                <a class="mobile-menu-address-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+              </li>
+              <li class="mobile-menu-address-item">
+                <a class="mobile-menu-address-link mobile-menu-email link"
+                  href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+            </ul>
+          </div>
+          <ul class="mobile-menu-social-list list-style">
+            <li class="mobile-menu-social-item">
+              <a href="" class="mobile-menu-social-link">
+                <svg class="mobile-menu-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-menu-social-item">
+              <a href="" class="mobile-menu-social-link">
+                <svg class="mobile-menu-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-menu-social-item">
+              <a href="" class="mobile-menu-social-link">
+                <svg class="mobile-menu-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-menu-social-item">
+              <a href="" class="mobile-menu-social-link">
+                <svg class="mobile-menu-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </header>
   <main>
@@ -53,7 +119,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" re
         </button>
       </div>
     </section>
-    <section class="section">
+    <section class="advantage-section section">
       <div class="container">
         <h2 hidden>Advantages</h2>
         <ul class="adventage-list list-style">
@@ -63,8 +129,8 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" re
                 <use href="./images/icons.svg#icon-antenna"></use>
               </svg>
             </div>
-            <h3 class="section-subtitle">Strategy</h3>
-            <p class="subtitle-descr">
+            <h3 class="advantage-section-subtitle">Strategy</h3>
+            <p class="advantage-subtitle-descr">
               Our goal is to identify the business problem to walk away with
               the perfect and creative solution.
             </p>
@@ -75,8 +141,8 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" re
                 <use href="./images/icons.svg#icon-clock"></use>
               </svg>
             </div>
-            <h3 class="section-subtitle">Punctuality</h3>
-            <p class="subtitle-descr">
+            <h3 class="advantage-section-subtitle">Punctuality</h3>
+            <p class="advantage-subtitle-descr">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
@@ -87,8 +153,8 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" re
                 <use href="./images/icons.svg#icon-diagram"></use>
               </svg>
             </div>
-            <h3 class="section-subtitle">Diligence</h3>
-            <p class="subtitle-descr">
+            <h3 class="advantage-section-subtitle">Diligence</h3>
+            <p class="advantage-subtitle-descr">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
@@ -99,8 +165,8 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" re
                 <use href="./images/icons.svg#icon-astronaut"></use>
               </svg>
             </div>
-            <h3 class="section-subtitle">Technologies</h3>
-            <p class="subtitle-descr">
+            <h3 class="advantage-section-subtitle">Technologies</h3>
+            <p class="advantage-subtitle-descr">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -131,8 +197,8 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" re
           <li class="team-item">
             <img src="./images/employees/mark-guerrero.jpg" alt="Mark Guerrero" width="264" height="260" />
             <div class="team-card-content-container">
-              <h3 class="section-subtitle subtitle-center">Mark Guerrero</h3>
-              <p class="subtitle-descr descr-center">Product Designer</p>
+              <h3 class="team-section-subtitle">Mark Guerrero</h3>
+              <p class="team-subtitle-descr">Product Designer</p>
               <ul class="social-list list-style">
                 <li class="social-list-item">
                   <a href="" class="social-list-link">
@@ -168,8 +234,8 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" re
           <li class="team-item">
             <img src="./images/employees/tom-ford.jpg" alt="Tom Ford" width="264" height="260" />
             <div class="team-card-content-container">
-              <h3 class="section-subtitle subtitle-center">Tom Ford</h3>
-              <p class="subtitle-descr descr-center">Frontend Developer</p>
+              <h3 class="team-section-subtitle">Tom Ford</h3>
+              <p class="team-subtitle-descr">Frontend Developer</p>
               <ul class="social-list list-style">
                 <li class="social-list-item">
                   <a href="" class="social-list-link">
@@ -205,8 +271,8 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" re
           <li class="team-item">
             <img src="./images/employees/camila-garcia.jpg" alt="Camila Garcia" width="264" height="260" />
             <div class="team-card-content-container">
-              <h3 class="section-subtitle subtitle-center">Camila Garcia</h3>
-              <p class="subtitle-descr descr-center">Marketing</p>
+              <h3 class="team-section-subtitle">Camila Garcia</h3>
+              <p class="team-subtitle-descr">Marketing</p>
               <ul class="social-list list-style">
                 <li class="social-list-item">
                   <a href="" class="social-list-link">
@@ -242,8 +308,8 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" re
           <li class="team-item">
             <img src="./images/employees/daniel-wilson.jpg" alt="Daniel Wilson" width="264" height="260" />
             <div class="team-card-content-container">
-              <h3 class="section-subtitle subtitle-center">Daniel Wilson</h3>
-              <p class="subtitle-descr descr-center">UI Designer</p>
+              <h3 class="team-section-subtitle">Daniel Wilson</h3>
+              <p class="team-subtitle-descr">UI Designer</p>
               <ul class="social-list list-style">
                 <li class="social-list-item">
                   <a href="" class="social-list-link">
@@ -279,7 +345,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" re
         </ul>
       </div>
     </section>
-    <section class="section">
+    <section class="customers-section section">
       <div class="container">
         <h2 class="section-title">Customers</h2>
         <ul class="customers-list list-style">
@@ -332,7 +398,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" re
   <footer class="footer">
     <div class="container footer-flex-container">
       <div>
-        <a class="logo link footer-logo-color" href="./index.html"><span class="web-logo">Web</span>Studio</a>
+        <a class="logo link footer-logo" href="./index.html"><span class="web-logo">Web</span>Studio</a>
         <p class="footer-descr">
           Increase the flow of customers and sales for your business with
           digital marketing & growth solutions.
@@ -447,6 +513,10 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" re
       </form>
     </div>
   </div>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"></script>
+  <script src="./mobile-menu.js"></script>
   <script src="./modal.js"></script>
 </body>
 
