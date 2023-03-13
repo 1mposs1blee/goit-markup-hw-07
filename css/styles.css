@@ -626,12 +626,6 @@ screen and (min-resolution: 3dppx) and (max-width: 767px) {
   color: #f4f4fd;
 }
 
-.media-and-form-container {
-  display: flex;
-  flex-direction: column;
-  gap: 72px;
-}
-
 .footer-subtitle {
   margin-bottom: 16px;
 
@@ -677,6 +671,10 @@ screen and (min-resolution: 3dppx) and (max-width: 767px) {
   fill: currentColor;
 }
 
+.footer-form {
+  width: 100%;
+}
+
 .footer-form-descr {
   margin-bottom: 16px;
 
@@ -688,6 +686,10 @@ screen and (min-resolution: 3dppx) and (max-width: 767px) {
   flex-direction: column;
   align-items: center;
   gap: 16px;
+}
+
+.footer-form-field {
+  width: 100%;
 }
 
 .footer-form-input {
@@ -1168,6 +1170,7 @@ screen and (min-resolution: 3dppx) and (max-width: 767px) {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 
   width: 16px;
   height: 16px;
