@@ -1495,10 +1495,17 @@ screen and (min-resolution: 3dppx) and (min-width: 1200px) {
   transition: transform var(--transition-dur-and-func);
 }
 
-@media screen and (max-width: 397px) {
+@media screen and (max-width: 381px) {
   .modal {
     padding-top: 52px;
     padding-bottom: 4px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .modal {
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
 
